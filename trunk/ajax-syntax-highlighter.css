@@ -1,0 +1,79 @@
+.ajax-syntax-highlighter {
+  font-family: "Consolas", "Courier New";
+  font-size: 93%;
+  background-color: #F8F8F8;
+  margin-bottom: 2em;
+  margin-top: 2em;
+
+  border-style: solid;
+  border-width: 1px;
+}
+
+.ajax-syntax-highlighter ol,
+.ajax-syntax-highlighter ul,
+.ajax-syntax-highlighter pre {
+  margin: 0;
+}
+
+.ajax-syntax-highlighter ol {
+  background-color: #E7E5DC;
+}
+
+.ajax-syntax-highlighter ul {
+  padding-bottom:0.3em;
+  padding-top:0.3em;
+}
+
+.ajax-syntax-highlighter ul li {
+  display: inline;
+  margin-left: 0.6em;
+}
+
+.ajax-syntax-highlighter ol li
+{
+	list-style: decimal-leading-zero;
+	list-style-position: outside !important;
+	padding-left: 0.6em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	border-left: 0.3em solid #6CE26C;
+	background-color: #F8F8F8;
+	color: #5C5C5C;
+}
+
+.ajax-syntax-highlighter .bar {
+  background-color: #E7E5DC;
+}
+
+.ajax-syntax-highlighter .bar li, .ajax-syntax-highlighter .bar li a
+{
+	color: #a0a0a0;
+	background-color: inherit;
+	text-decoration: none;
+}
+
+.ajax-syntax-highlighter .tools
+{
+  font-size: 77%;
+  cursor: pointer;
+}
+
+.ajax-syntax-highlighter .bar li:hover, .ajax-syntax-highlighter .bar a:hover
+{
+	color: red;
+	background-color: inherit;
+}
+
+.ajax-syntax-highlighter ul .language a {
+    font-weight: bold;
+    font-size: 116%;
+}
+
+.ajax-syntax-highlighter textarea {
+  background-color: #F8F8F8;
+  color: #5C5C5C;
+  margin: 0;
+  border: 0;
+  border-left: 0.3em solid #6CE26C;
+  width: 100%;
+}
