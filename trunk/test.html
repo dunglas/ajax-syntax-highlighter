@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Ajax Syntax Highlighter test page</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.2/build/reset-fonts/reset-fonts.css" /> 
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.2/build/base/base-min.css" />
+  <link rel="stylesheet" type="text/css" href="ajax-syntax-highlighter.css" />
+  
+  <style type="text/css">
+  body {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  </style>
+
+  <script type="text/javascript" src="http://yui.yahooapis.com/combo?2.5.2/build/yahoo-dom-event/yahoo-dom-event.js&amp;2.5.2/build/connection/connection-min.js&amp;2.5.2/build/json/json-min.js&amp;2.5.2/build/selector/selector-beta-min.js"></script>
+  <script type="text/javascript" src="ajax-syntax-highlighter.js"></script>
+</head>
+<body>
+  <h1>Ajax Syntax Highlighter test page</h1>
+  <p>Ajax Syntax Highlighter is a product wrote by <a href="http://lapin-blanc.net">Kévin Dunglas</a>.</p>
+
+  <h2>C exemple</h2>
+  <pre><code class="language-c">int factorielle(int n) {
+  if (n > 2) return n * factorielle(n - 1);
+  return n;
+}</code></pre>
+
+  <h2>Java exemple</h2>
+  <pre><code class="language-java">FileOutputStream fos = null; 
+
+try {
+  fos = new FileOutputStream(...);
+  fos.write(a); //'a' aurait reçu une valeur ultérieurement
+}
+catch (IOException e) {
+  e.printStackTrace();
+}
+finally{
+  //Fermer le flux, qu’il y ait une exception lancée ou pas
+  if(fos != null) fos.close();
+}</code></pre>
+
+  <h2>PHP example</h2>
+  <pre><code class="language-php">&lt;?php
+echo 'Hello, World';
+?&gt;</code></pre>
+</body>
+</html>
