@@ -1,5 +1,5 @@
 <?php
-include_once('geshi/geshi.php');
+include_once('lib/geshi/geshi.php');
 
 // Strip slashes if magic quote is enabled
 // Adapted from http://talks.php.net/show/php-best-practices/26
