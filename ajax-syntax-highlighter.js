@@ -99,8 +99,7 @@ Snippet.prototype.highlight = function() {
     this.snippet.appendChild(this.code);
     
     /* Hide the semantic version and display the colored */
-    parent.removeChild(this.text_html);
-    parent.appendChild(this.snippet);
+    parent.replaceChild(this.snippet, this.text_html);
     
     /* Create and hide the textarea */
     this.textarea_html              = document.createElement("textarea");

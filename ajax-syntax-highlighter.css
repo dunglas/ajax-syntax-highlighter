@@ -1,7 +1,7 @@
 .ajax-syntax-highlighter {
   font-family: "Consolas", "Courier New";
   font-size: 93%;
-  background-color: #F8F8F8;
+  /*background-color: #F8F8F8;*/
   margin-bottom: 2em;
   margin-top: 2em;
 
@@ -15,13 +15,9 @@
   margin: 0;
 }
 
-.ajax-syntax-highlighter ol {
-  background-color: #E7E5DC;
-}
-
 .ajax-syntax-highlighter ul {
-  padding-bottom:0.3em;
-  padding-top:0.3em;
+  padding-bottom: 0.3em;
+  padding-top: 0.3em;
 }
 
 .ajax-syntax-highlighter ul li {
@@ -31,7 +27,7 @@
 
 .ajax-syntax-highlighter ol li
 {
-	list-style: decimal-leading-zero;
+  list-style: decimal-leading-zero;
 	list-style-position: outside !important;
 	padding-left: 0.6em;
 	padding-top: 0.1em;
@@ -48,7 +44,6 @@
 .ajax-syntax-highlighter .bar li, .ajax-syntax-highlighter .bar li a
 {
 	color: #a0a0a0;
-	background-color: inherit;
 	text-decoration: none;
 }
 
@@ -61,12 +56,20 @@
 .ajax-syntax-highlighter .bar li:hover, .ajax-syntax-highlighter .bar a:hover
 {
 	color: red;
-	background-color: inherit;
 }
 
 .ajax-syntax-highlighter ul .language a {
     font-weight: bold;
     font-size: 116%;
+}
+
+.ajax-syntax-highlighter ol {
+  /*background-color: #E7E5DC;*/
+  margin-left: 3em;
+}
+
+.ajax-syntax-highlighter div {
+  background-color: #E7E5DC;
 }
 
 .ajax-syntax-highlighter textarea {
